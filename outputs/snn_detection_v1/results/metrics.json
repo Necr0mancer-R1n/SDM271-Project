@@ -1,0 +1,66 @@
+{
+    "model": "SNN ROI Classifier V1",
+    "dataset": "Pascal VOC 2007 object crops",
+    "framework": "CNN proposal generator + SNN ROI classifier",
+    "encoding": "rate coding",
+    "neuron_model": "Leaky Integrate-and-Fire",
+    "train_split": "VOC2007 train object crops",
+    "val_split": "VOC2007 val object crops",
+    "num_classes": 20,
+    "batch_size": 64,
+    "epochs": 8,
+    "num_steps": 20,
+    "beta": 0.95,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "criterion": "CrossEntropyLoss on output spike counts",
+    "best_validation_accuracy": 0.4132770529547199,
+    "final_validation_loss": 2.222587833199607,
+    "final_validation_accuracy": 0.4176259913021233,
+    "trainable_parameters": 2107636,
+    "total_training_time_seconds": 63.395076274871826,
+    "device": "cuda",
+    "history": {
+        "train_loss": [
+            3.2729395040743574,
+            2.204138030451454,
+            1.8705074289877277,
+            1.5287258091901772,
+            1.1968111844466451,
+            0.8767872395289303,
+            0.5872470278298594,
+            0.3764858047674044
+        ],
+        "train_acc": [
+            0.20639979602243752,
+            0.3495665476797552,
+            0.43090260071392145,
+            0.524604793472718,
+            0.6155022947475778,
+            0.7136664966853646,
+            0.8027791942886282,
+            0.8795257521672616
+        ],
+        "val_loss": [
+            2.360104780728996,
+            2.263132054716097,
+            2.1419076202287184,
+            2.2260191360072548,
+            2.187252224177831,
+            2.4400840006267424,
+            2.626389860405462,
+            2.841655017958178
+        ],
+        "val_acc": [
+            0.3451010488616014,
+            0.38232284471731903,
+            0.3914044512663085,
+            0.4132770529547199,
+            0.40125351752366334,
+            0.36326426195958045,
+            0.38948580199539523,
+            0.3869276029675109
+        ]
+    }
+}

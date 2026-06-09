@@ -1,0 +1,68 @@
+{
+    "model": "SNNMnist",
+    "dataset": "MNIST",
+    "encoding": "rate coding",
+    "neuron_model": "Leaky Integrate-and-Fire",
+    "split": {
+        "train": 50000,
+        "validation": 10000,
+        "test": 10000
+    },
+    "batch_size": 128,
+    "epochs": 8,
+    "num_steps": 25,
+    "hidden_size": 1000,
+    "beta": 0.95,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "criterion": "CrossEntropyLoss on output spike counts",
+    "best_validation_accuracy": 0.975,
+    "test_loss": 0.09940707937723492,
+    "test_accuracy": 0.9773,
+    "trainable_parameters": 795010,
+    "total_training_time_seconds": 36.24665117263794,
+    "device": "cuda",
+    "history": {
+        "train_loss": [
+            0.31902010716557505,
+            0.09214019009947777,
+            0.061800249787569046,
+            0.04800134997516871,
+            0.03623623306244612,
+            0.027783593771830203,
+            0.03297855688109994,
+            0.028569661112399773
+        ],
+        "train_acc": [
+            0.90096,
+            0.9718,
+            0.9806,
+            0.98442,
+            0.98826,
+            0.9912,
+            0.98874,
+            0.99102
+        ],
+        "val_loss": [
+            0.13266708060503005,
+            0.10745241599082947,
+            0.11473643625974655,
+            0.08921619582772256,
+            0.10300047448277473,
+            0.11769524915963411,
+            0.12884206330776216,
+            0.11375320944786071
+        ],
+        "val_acc": [
+            0.9622,
+            0.9668,
+            0.9672,
+            0.9746,
+            0.9749,
+            0.9707,
+            0.9701,
+            0.975
+        ]
+    }
+}

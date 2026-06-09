@@ -1,0 +1,4 @@
+filename,num_detections,detections,figure_path
+000258.jpg,2,"person 0.995 [340.61, 31.55, 498.06, 332.67] | dog 0.955 [200.19, 121.11, 396.25, 333.0]",/home/susech/SDM271/project/outputs/cnn_detection/figures/detection_000258.png
+000283.jpg,4,"person 1.000 [81.64, 16.06, 189.94, 296.99] | bicycle 0.999 [333.02, 251.82, 437.61, 454.19] | person 0.998 [333.78, 114.25, 452.18, 424.08] | bicycle 0.997 [90.22, 147.16, 176.27, 341.22]",/home/susech/SDM271/project/outputs/cnn_detection/figures/detection_000283.png
+000339.jpg,4,"person 0.997 [336.18, 91.42, 474.85, 356.35] | person 0.993 [3.55, 109.46, 218.39, 371.29] | person 0.976 [201.44, 181.29, 318.43, 369.41] | person 0.847 [418.03, 177.08, 497.94, 375.0]",/home/susech/SDM271/project/outputs/cnn_detection/figures/detection_000339.png

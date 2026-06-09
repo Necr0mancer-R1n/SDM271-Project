@@ -1,0 +1,32 @@
+{
+    "model": "Faster R-CNN MobileNetV3-Large FPN",
+    "dataset": "Pascal VOC 2007",
+    "train_split": "trainval",
+    "eval_split": "test",
+    "num_classes": 21,
+    "epochs": 5,
+    "batch_size": 4,
+    "optimizer": "SGD",
+    "learning_rate": 0.005,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "metric": "mAP@0.5, Pascal VOC 2007 11-point AP",
+    "best_map": 0.739524962841332,
+    "total_training_time_seconds": 297.18688559532166,
+    "history": {
+        "train_loss": [
+            0.7511760633608292,
+            0.6086979983262986,
+            0.5645645340251999,
+            0.4793565883364377,
+            0.47262251496029584
+        ],
+        "map": [
+            0.6849520407151142,
+            0.6765045491139909,
+            0.6819491292537001,
+            0.739524962841332,
+            0.7378136420428107
+        ]
+    }
+}

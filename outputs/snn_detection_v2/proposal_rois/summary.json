@@ -1,0 +1,74 @@
+{
+    "method": "proposal-matched ROI dataset",
+    "cnn_detector": "/home/susech/SDM271/project/outputs/cnn_detection/models/cnn_detection_best.pt",
+    "proposal_score_threshold": 0.05,
+    "match_iou_threshold": 0.5,
+    "max_proposals_per_image": 30,
+    "include_gt_boxes": true,
+    "splits": {
+        "train": {
+            "split": "train",
+            "num_images": 2501,
+            "num_rows": 17902,
+            "source_counts": {
+                "gt": 7844,
+                "proposal": 10058
+            },
+            "class_counts": {
+                "car": 1774,
+                "person": 5902,
+                "horse": 515,
+                "bicycle": 488,
+                "aeroplane": 345,
+                "train": 347,
+                "diningtable": 365,
+                "dog": 753,
+                "chair": 1714,
+                "cat": 465,
+                "bird": 623,
+                "boat": 456,
+                "pottedplant": 657,
+                "tvmonitor": 393,
+                "sofa": 667,
+                "motorbike": 464,
+                "bottle": 674,
+                "bus": 348,
+                "sheep": 442,
+                "cow": 510
+            },
+            "csv_path": "/home/susech/SDM271/project/outputs/snn_detection_v2/proposal_rois/train.csv"
+        },
+        "val": {
+            "split": "val",
+            "num_images": 2510,
+            "num_rows": 17672,
+            "source_counts": {
+                "gt": 7818,
+                "proposal": 9854
+            },
+            "class_counts": {
+                "chair": 1665,
+                "car": 1796,
+                "horse": 486,
+                "person": 5900,
+                "bicycle": 493,
+                "cat": 491,
+                "dog": 719,
+                "train": 375,
+                "tvmonitor": 365,
+                "bird": 624,
+                "bottle": 599,
+                "motorbike": 473,
+                "pottedplant": 676,
+                "sofa": 618,
+                "sheep": 379,
+                "cow": 468,
+                "aeroplane": 389,
+                "boat": 419,
+                "bus": 350,
+                "diningtable": 387
+            },
+            "csv_path": "/home/susech/SDM271/project/outputs/snn_detection_v2/proposal_rois/val.csv"
+        }
+    }
+}
