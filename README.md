@@ -45,7 +45,7 @@ Python 3.10 or 3.11 with CUDA GPU support is recommended.
 Install PyTorch and torchvision for CUDA:
 
 ```bash
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision snntorch numpy matplotlib pillow opencv-python pandas scikit-learn scipy tqdm --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
 ## Dataset Preparation
